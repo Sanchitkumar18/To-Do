@@ -17,10 +17,6 @@ const NotesSchema = new Schema({
     tag: {
         type: String,
         default: "General"
-    },
-    dueDate: {
-        type: Date,
-        default: null
     }
 
 },{ timestamps: true });
